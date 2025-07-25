@@ -138,6 +138,7 @@ span{
     background: var(--main-color);
     color: var(--snd-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
+    font-size: 3rem;
 }
 
 .btn{
@@ -168,7 +169,8 @@ button {
 .btn:hover{
     box-shadow: white;
     background: var(--bg-color); 
-    
+    color: white;
+    font-size: 1.8rem;
 }
 
 button:hover{
@@ -214,12 +216,13 @@ font-size: 4.5rem;
 .services-container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 2rem;
 }
 
 .services-container .services-box{
-    flex-direction: 1 1 30rem;
+    /* flex-direction: 1 1 30rem; */
+    flex: 1 1 30rem;
     background: var(--snd-bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
