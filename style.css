@@ -75,6 +75,7 @@ display: none;
     display: flex;
     justify-content: center;
     align-items: center;
+     gap: 10rem;
 }
 
 .home-content h3{
